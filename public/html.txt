@@ -1,0 +1,31 @@
+ <nav class="navbar">
+        <div class="logo">
+            <img src="#" alt="Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Produtos</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+    <div class="quadro">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/437712083_461121229703036_5172394226739393913_n.png?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Fhu-DSxkY1wQ7kNvgHztJOM&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QED2VOZ1WdG3hmpeptxUsiWluwzheE_jMfxWvz8HJF1dw&oe=665C4D1E" alt="Imagem 1">
+     <h3><figcaption><strong>Tropinha<strong/></figcaption><h3/>
+    </div>
+    <div class="quadro">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/437712083_461121229703036_5172394226739393913_n.png?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Fhu-DSxkY1wQ7kNvgHztJOM&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QED2VOZ1WdG3hmpeptxUsiWluwzheE_jMfxWvz8HJF1dw&oe=665C4D1E" alt="Imagem 2">
+       <h3><figcaption><strong>Tropinha<strong/></figcaption><h3/>
+    </div>
+    <div class="quadro">
+      <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/440300894_334335229324667_5398887622503257583_n.png?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=U0Y_d5mx5nIQ7kNvgGXV2xA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_Q7cD1QHfUodATq2V8L-8-PawM3tpavkiu3GLm2GsWPBAgXbFUg&oe=665C52F1" alt="Imagem 3">
+      <h2><figcaption><strong>9 dedos<strong/></figcaption><h2/>
+    </div>
+  </div>
+      <footer>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <p>&copy; 2024 Todos os direitos reservados</p>
+    </footer>

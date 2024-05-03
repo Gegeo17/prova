@@ -1,0 +1,57 @@
+/* styles.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 35px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+/* styles.css */
+footer {
+    display: absolute;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 10px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+footer p {
+    font-size: 14px;
+    text-align: center;
+}
+.container {
+  text-align: center; /* Centraliza os elementos filhos */
+}
+
+.quadro {
+  display: inline-block; /* Permite que os elementos fiquem lado a lado */
+  margin: 20px; /* Adiciona um espaço entre as imagens */
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+
