@@ -1,23 +1,41 @@
 import React from 'react';
-import './App.css';
-import Navbar from './Navbar'
-import Footer from './Footer';
-import Body from './Body';
+import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import HomePage from './components/HomePage';
+import ContactPage from './components/ContactPage';
+import AboutPage from './components/AboutPage';
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar/>
+    <Router>
       <div>
-        <Body/>
-      </div>
-      <div>
-        <Footer/>
-      </div>
+        <nav>
+          <ul>
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+              <Link to="/about">About Us</Link>
+            </li>
+          </ul>
+        </nav>
 
-    </div>
+        <Switch>
+          <Route path="/contact">
+            <ContactPage />
+          </Route>
+          <Route path="/about">
+            <AboutPage />
+          </Route>
+          <Route path="/">
+            <HomePage />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;
